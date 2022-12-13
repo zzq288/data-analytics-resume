@@ -1,0 +1,141 @@
+---
+title: "Resume"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # Thanks to Eric R. Scott for this tip! 
+    self_contained: false
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![Data](data_icon.png){width=30%}
+<!-- ![Data](`r here::here("data_icon.png")`) -->
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> zzq228@163.com
+- <i class="fa fa-github"></i> [github.com/zzq288/](https://github.com/zzq288/)
+- <i class="fa fa-phone"></i> +1 617-456-7891
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Performing **data analysis**, with a focus on machine learning models
+
+- Experienced in **data communication** and **data visualization**
+
+- Proficient in **R/Python/SQL** 
+
+- **Machine Learning** on cloud platforms (AWS)
+
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Ziqi Zhou {#title}
+--------------------------------------------------------------------------------
+
+### Data Analytics student seeking Spring 2023 internship
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Tufts University
+
+MS Candidate in Data Analytics
+
+Medford, MA
+
+2022--Current
+
+
+### Shanghai University
+
+B.A. in Finance
+
+Shanghai, CN
+
+2018--2022
+
+
+
+Work Experience {data-icon=flask}
+--------------------------------------------------------------------------------
+
+### Data Analyst Intern
+
+Junco (Shanghai) Information Technology Co.
+
+Shanghai, CN
+
+2021--2022
+
+- Collected and analyzed data from various functional areas using a variety of business intelligence tools
+- Produced reports to demonstrate the results of statistical analyses in the form of graphs, charts, and tables
+- Identified key trends and patterns in large and complex data sets
+
+
+
+
+Selected Project Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### DATA-200 Foundations of Data Analyics 
+
+Tufts University
+
+Medford, MA
+
+2022--Current
+
+<!--::: concise-->
+- Deployed a project which predicted the likelihood of hypertension with 75% accuracy on data from NHANES
+- Applied re-sampling and clustering methods to solve the problem of an imbalanced data set
+- Implemented forward stepwise regression model, logistic regression model, k-nearest neighbors, and random forest to predict hypertension
+<!--:::-->
+
+
+
+
+### DATA-201 Intro to Python and Machine Learning 
+
+Tufts University
+
+Medford, MA
+
+2022--Current
+
+- Deployed a project which predicted the likelihood of winning with approximately 70% accuracy on ultimate fighting champion (UFC) data
+- Applied feature selection function and PCA to reduce the dimensionality of the UFC data set
+- Implemented k-means, logistic regression model, k-nearest neighbors, random forest, and naive Bayes model to predict the winner
+
+
+
+Selected Presentations {data-icon=comment-alt}
+--------------------------------------------------------------------------------
+### DATA-200 Final Project
+Presented a model for hypertension prediction, and summarized main results and assumptions of the model to my cohort. 
+
+Medford, MA
+
+December 2022
